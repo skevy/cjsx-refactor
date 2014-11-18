@@ -186,8 +186,8 @@ class Ripper
     parent
 
   @scopeNames: [
-    'source.coffee'
-    'source.litcoffee'
+    'source.coffee.jsx',
+    'source.cjsx'
   ]
 
   constructor: ->
