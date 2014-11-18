@@ -1,9 +1,9 @@
 {
-  "name": "coffee-refactor",
-  "main": "./lib/coffee_refactor",
+  "name": "cjsx-refactor",
+  "main": "./lib/cjsx_refactor",
   "version": "0.6.2",
-  "description": "Refactoring support for CoffeeScript",
-  "repository": "https://github.com/minodisk/coffee-refactor",
+  "description": "Refactoring support for CJSX",
+  "repository": "https://github.com/skevy/cjsx-refactor",
   "license": "MIT",
   "auther": {
     "name": "Daisuke Mino",
