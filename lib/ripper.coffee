@@ -1,3 +1,4 @@
+transform = require 'coffee-react-transform'
 { nodes } = require '../vender/coffee-script/lib/coffee-script/coffee-script'
 { Lexer } = require '../vender/coffee-script/lib/coffee-script/lexer'
 { parse } = require '../vender/coffee-script/lib/coffee-script/parser'
@@ -207,6 +208,7 @@ class Ripper
 
     try
       # bench()
+      code = transform(code)
       @tokens = @lexer.tokenize code, {}
       # console.log 'tokenize:', bench()
       @nodes = Ripper.generateNodes parse @tokens
