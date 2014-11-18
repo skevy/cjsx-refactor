@@ -9,7 +9,7 @@ class NotificationView extends View
   @warn: ->
     @li =>
       @span "'"
-      @a href: "https://atom.io/packages/coffee-refactor", "coffee-refactor"
+      @a href: "https://atom.io/packages/cjsx-refactor", "cjsx-refactor"
       @span "' package requires '"
       @a href: "https://atom.io/packages/refactor", "refactor"
       @span "' package"
