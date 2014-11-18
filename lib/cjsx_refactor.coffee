@@ -9,7 +9,7 @@ module.exports =
     'disable in large files (chars)': 20000
 
   activate: ->
-    atom.workspace.emit 'coffee-refactor-became-active'
+    atom.workspace.emit 'cjsx-refactor-became-active'
     return if 'refactor' in packageManager.getAvailablePackageNames() and
               !packageManager.isPackageDisabled 'refactor'
     new NotificationView
